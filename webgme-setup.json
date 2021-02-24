@@ -1,0 +1,13 @@
+{
+  "components": {
+    "plugins": {
+      "FHIRImport": {
+        "src": "src/plugins/FHIRImport",
+        "test": "test/plugins/FHIRImport"
+      }
+    }
+  },
+  "dependencies": {
+    "plugins": {}
+  }
+}
