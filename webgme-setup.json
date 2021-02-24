@@ -5,9 +5,21 @@
         "src": "src/plugins/FHIRImport",
         "test": "test/plugins/FHIRImport"
       }
-    }
+    },
+    "addons": {},
+    "decorators": {},
+    "layouts": {},
+    "routers": {},
+    "seeds": {},
+    "visualizers": {}
   },
   "dependencies": {
-    "plugins": {}
+    "plugins": {},
+    "addons": {},
+    "decorators": {},
+    "layouts": {},
+    "routers": {},
+    "seeds": {},
+    "visualizers": {}
   }
 }

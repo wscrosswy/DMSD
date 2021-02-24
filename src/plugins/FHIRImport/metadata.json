@@ -1,6 +1,6 @@
 {
   "id": "FHIRImport",
-  "name": "FHIRImport",
+  "name": "FHIR Import",
   "version": "0.1.0",
   "description": "",
   "icon": {
@@ -11,5 +11,14 @@
   "disableBrowserSideExecution": false,
   "dependencies": [],
   "writeAccessRequired": false,
-  "configStructure": []
+  "configStructure": [
+    {
+      "name": "srcHash",
+      "displayName": "FHIR StructureDefinition",
+      "description": "",
+      "value": "",
+      "valueType": "asset",
+      "readOnly": false
+    }
+  ]
 }

@@ -1,0 +1,14 @@
+{
+    "attributes": {
+        "name": "us-core-patient",
+		"uri": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"
+    },
+    "attribute_meta": {
+        "name": {"type": "string"},
+        "uri": {"type": "string"}
+    },
+	"pointers": {
+		"specializes": "@attribute:uri:http://hl7.org/fhir/StructureDefinition/Patient",
+		"base": "@meta:Entity"
+	}
+}

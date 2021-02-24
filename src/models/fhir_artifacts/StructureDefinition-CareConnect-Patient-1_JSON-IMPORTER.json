@@ -1,0 +1,14 @@
+{
+    "attributes": {
+        "name": "CareConnect-Patient-1",
+		"uri": "https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Patient-1"
+    },
+    "attribute_meta": {
+        "name": {"type": "string"},
+        "uri": {"type": "string"}
+    },
+	"pointers": {
+		"specializes": "@attribute:uri:http://hl7.org/fhir/StructureDefinition/Patient",
+		"base": "@meta:Entity"
+	}
+}
